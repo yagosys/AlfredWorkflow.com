@@ -4,11 +4,18 @@ GEM
     google-search (1.0.3)
       json
     json (1.7.7)
-    nokogiri (1.5.7)
+    mini_portile2 (2.6.1)
+    nokogiri (1.12.4)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
+    racc (1.5.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   google-search
-  nokogiri
+  nokogiri (>= 1.8.2)
+
+BUNDLED WITH
+   2.1.4
